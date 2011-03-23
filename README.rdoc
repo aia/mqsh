@@ -1,6 +1,6 @@
 = MQsh
 
-MQsh is a distributed shell implemented on top of a message queue. MQsh is a new take on dsh[http://www.netfort.gr.jp/~dancer/software/dsh.html.en]. MQsh server uses AMQP[http://en.wikipedia.org/wiki/AMQP] to send commands to a message exchange, message exchanges forwards commands to MQsh workers, MQsh workers execute commands and send back response. MQsh will work with any message queue that implements AMPQ, e.g. RabbitMQ, ActiveMQ, ZeroMQ.
+MQsh is a distributed shell implemented on top of a message queue. MQsh is a new take on dsh[http://www.netfort.gr.jp/~dancer/software/dsh.html.en]. MQsh server uses AMQP[http://en.wikipedia.org/wiki/AMQP] to send commands to a message exchange, message exchanges forwards commands to MQsh workers, MQsh workers execute commands and send back response. MQsh will work with any message queue that implements AMPQ, e.g. RabbitMQ[http://www.rabbitmq.com/], ActiveMQ[http://activemq.apache.org/], ZeroMQ[http://www.zeromq.org/].
 
 == Contributing to MQsh
  
