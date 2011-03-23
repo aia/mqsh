@@ -1,6 +1,10 @@
 v0.0.1 Working concept
 	* MQsh::Server and MQsh::Worker classes
 	* mqsh, mqsh-server, mqsh-worker executables
-	* TODO: need to add an interface to MQsh::Server to accept clients
+	* TODO: add an interface to MQsh::Server to accept clients
+	* TODO: MQsh::Client to provide methods to interact with MQsh::Server
 	* TODO: mqsh-server, mqsh-worker to run as daemons 
-	* TODO: mqsh will be the client to connect mqsh-server (mqsh-worker?) 
+	* TODO: mqsh to serve as a client to connect to mqsh-server (mqsh-worker?) 
+	* TODO: RSpec
+	* TODO: YAML configs for mqsh-server, mqsh-worker
+	* TODO: Integration with Chef
