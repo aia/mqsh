@@ -1,0 +1,21 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.unshift File.dirname(__FILE__) + '/../lib'
+
+require 'rubygems'
+require 'mqsh'
+require 'pp'
+require 'rbtrace'
+
+config = {
+	"url" => "amqp:/",
+	"hostname" => ARGV[0],
+	"read_exchange" => "read-mqsh",
+	"write_queue" => "write-mqsh"
+}
+
+mqsh_worker = MQsh::Worker.new(config)
+
+pp ["mqsh_worker", mqsh_worker] 
+
+mqsh_worker.start
