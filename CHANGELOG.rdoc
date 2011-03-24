@@ -8,3 +8,4 @@ v0.0.1 Working concept
 	* TODO: RSpec
 	* TODO: YAML configs for mqsh-server, mqsh-worker
 	* TODO: Integration with Chef
+	* TODO: add scripts to setup message queue users and permissions
