@@ -9,7 +9,7 @@ require 'rbtrace'
 
 config = {
 	"url" => "amqp:/",
-	"hostname" => ARGV[0],
+	"hostname" => (ARGV[0] || "unknown"),
 	"read_exchange" => "read-mqsh",
 	"write_queue" => "write-mqsh"
 }

@@ -9,6 +9,8 @@ require 'mqsh'
 config = {
 	"url" => "amqp:/",
 	"hostname" => "server1",
+	"listener_host" => "localhost",
+	"listener_port" => "2222",
 	"read_queue" => "write-mqsh",
 	"write_exchange" => "read-mqsh",
 	"cmd" => ARGV.join(" ")
